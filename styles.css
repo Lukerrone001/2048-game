@@ -1,0 +1,15 @@
+/* style.css */
+.griglia {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .cella {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
